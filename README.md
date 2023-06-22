@@ -17,7 +17,7 @@ pip install opencv-python-headless telebot pyTelegramBotAPI
 
 Launch the bot using Python:
 
-В боте Telegram вы можете использовать следующие команды:
+In the Telegram bot, you can use the following commands:
 
-* `/start` - Приветственное сообщение
-* `/webcam` - Получить снимок с веб-камеры
+* `/start` - Welcome message
+* `/webcam' - Get a picture from a webcam
