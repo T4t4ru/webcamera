@@ -1,20 +1,23 @@
-# Telegram Bot for webcams
+# Telegram bot for webcam
 
-" This Telegram bot allows you to listen to a call from a webcam on the phone.
+This Telegram bot allows you to get a picture from a webcam on command.
 
 ## Installation and Configuration
 
 1. Make sure that Python 3 is installed on your computer.
-2. Install invisible biotecs using pip.
+2. Install the necessary libraries using pip:
 
-bash
-pip installs opencv-python-headless pyTelegramBotAPI telebot
+```
+pip install opencv-python-headless telebot pyTelegramBotAPI
+```
 
-3. Find the code due to the fact that the repository is in the file `main.py ` and mark "YOUR_TOKEN_BOT" on the current of your Telegram bot:
+3. Copy the code from this repository to a file `main.py ` and replace `YOUR_TOKEN_BOT" with your Telegram bot token.
 
 ## Usage
 
-Launch a bot using Python:
+Launch the bot using Python:
 
-start
-the python main.py
+В боте Telegram вы можете использовать следующие команды:
+
+* `/start` - Приветственное сообщение
+* `/webcam` - Получить снимок с веб-камеры
